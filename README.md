@@ -35,4 +35,4 @@ const svgBadge = BadgeGenerator.renderBadge('Security Score', report.grade, repo
 
 ## License
 
-MIT © [Felipe Madson](https://github.com/FelipeMadson)
+MIT © [Felipe Madison](https://github.com/FelipeMadson)
