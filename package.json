@@ -1,0 +1,25 @@
+{
+  "name": "github-security-badge-automation",
+  "version": "1.0.0",
+  "description": "Automated CI generator for cryptographically verified repository security badges and scorecard evaluations",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/badge.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "security-badge",
+    "scorecard",
+    "ci-automation",
+    "sast",
+    "github-actions",
+    "svg-generator"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
